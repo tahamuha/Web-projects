@@ -1,2 +1,2 @@
 # Iot_projects
-project about iot platform
+project about simple program
