@@ -1,2 +1,2 @@
-# Iot_projects
-project about simple program
+# Web_projects
+projects about simple HTML,CSS and Javascript Applications.
