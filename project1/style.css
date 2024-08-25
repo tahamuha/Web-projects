@@ -31,6 +31,7 @@ body{
     margin-top: 25px;
     border-radius: 15px;
     padding: 10px 40px;
+    padding-bottom: 60px;
 }
 .sub-title img{
     width: 35px;
@@ -72,6 +73,59 @@ body{
     padding: 3px 16px;
 }
 
+.input-box{
+    width: 95%;
+    height:70px;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 217, 217);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: white;
+}
+.check-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(201, 200, 200, 0.882);
+    margin-left: 18px;
+    flex-shrink: 0;
+    position:relative;
+}
+.check-circle img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    color: green;
+    font-weight: 500;
+    font-size: 16px;
+}
+.input::placeholder{
+    font-weight: 400;
+    color: rgba(217, 217, 217, 1);
+
+}
+.quote{
+    text-align: center;
+    margin-top: 45px;
+}
+.credit{
+    text-align: center;
+    margin-top: 55px;
+    color: rgba(133, 133, 133, 1);
+    font-size: 12px;
+}
+
 @media (max-width:400px) {
     .title{
         font-size: 33px;
@@ -81,6 +135,10 @@ body{
     .container{
         width: 85%;
         margin-left: 25px;
+    }
+    .input-box{
+        height: 55px;
+        width: 100%;
     }
     
 }
