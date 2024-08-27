@@ -99,17 +99,10 @@ body{
     border: 2px solid rgba(201, 200, 200, 0.882);
     margin-left: 18px;
     flex-shrink: 0;
-    position:relative;
 }
 .completed{
     border-color: rgba(72, 163, 0, 1);
-}
-.completed img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-color:rgba(72, 163, 0, 1) ;
 }
 .input{
     border: 0;
