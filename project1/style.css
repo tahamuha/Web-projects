@@ -99,10 +99,22 @@ body{
     border: 2px solid rgba(201, 200, 200, 0.882);
     margin-left: 18px;
     flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.completed{
+.Completed{
     border-color: rgba(72, 163, 0, 1);
     background-color:rgba(72, 163, 0, 1) ;
+}
+.check-icon{
+    width: 11px;
+    display: none;
+}
+
+.Completed .check-icon{
+    display: block;
 }
 .input{
     border: 0;
